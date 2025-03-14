@@ -360,8 +360,9 @@
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "555m",
-      "idle_timeout": "3600m",
+	  "idle_timeout": "3600m",
       "tolerance": 50
+	
     },
     {
       "type": "direct",
@@ -514,28 +515,28 @@
         "type": "remote",
         "format": "source",
         "url": "https://raw.githubusercontent.com/haha158/rules/refs/heads/main/ProxyLite.list",
-        "download_detour": ""
+        "download_detour": "Proxy"
       },
 	  {
         "tag": "geosite-us",
         "type": "remote",
         "format": "source",
         "url": "https://raw.githubusercontent.com/haha158/rules/refs/heads/main/us.list",
-        "download_detour": ""
+        "download_detour": "Proxy"
       },
 	  {
         "tag": "geosite-singapore",
         "type": "remote",
         "format": "source",
         "url": "https://raw.githubusercontent.com/haha158/rules/refs/heads/main/singapore.list",
-        "download_detour": ""
+        "download_detour": "Proxy"
       },
-	   {
+	  {
         "tag": "geosite-ai",
         "type": "remote",
         "format": "source",
         "url": "https://raw.githubusercontent.com/haha158/rules/refs/heads/main/ai.list",
-        "download_detour": ""
+        "download_detour": "Proxy"
       },
       {
         "tag": "geosite-youtube",
