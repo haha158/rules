@@ -360,6 +360,7 @@
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "555m",
+      "idle_timeout": "3600m",
       "tolerance": 50
     },
     {
